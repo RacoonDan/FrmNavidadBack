@@ -1,0 +1,36 @@
+body {
+    background: #f7f3e9;
+    color: #27372d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-navidad { background: #123f30; border-bottom: 4px solid #d6ad58; }
+.portada {
+    color: white;
+    padding: 55px 15px 65px;
+    background: linear-gradient(125deg, #7d1728, #a92135 55%, #751728);
+}
+.portada h1 { font-family: Georgia, serif; font-weight: bold; font-size: clamp(2rem, 5vw, 3.3rem); }
+.portada .lead { color: #ffebcf; }
+.sobre-titulo { letter-spacing: 4px; font-size: .8rem; color: #f4d99b; font-weight: bold; }
+.arbol { width: 105px; height: 105px; object-fit: contain; margin-bottom: 12px; }
+.formulario { border: 1px solid #e4d6b9; border-radius: 15px; overflow: hidden; }
+.formulario .card-header { background: #174b38; color: white; padding: 20px; }
+.formulario .card-header h2 { font-family: Georgia, serif; font-size: 1.5rem; }
+.form-control:focus, .form-select:focus { border-color: #27724e; box-shadow: 0 0 0 .2rem #27724e25; }
+.btn-navidad { background: #a51f32; color: white; font-weight: bold; padding: 12px; border: 0; }
+.btn-navidad:hover { background: #791526; color: white; }
+.vista-previa {
+    min-height: 110px; border: 1px dashed #b8c9ba; border-radius: 10px;
+    display: grid; place-items: center; color: #778579; padding: 10px;
+    background: #f8fbf7; text-align: center;
+}
+.vista-previa img { max-width: 100%; max-height: 230px; object-fit: contain; }
+footer { background: #123f30; color: #f8e8c9; }
+.portada-corta { padding: 45px 15px; }
+.imagen-registro { height: 220px; object-fit: cover; }
+.sin-imagen { height: 220px; display: grid; place-items: center; font-size: 4rem; background: #eaf2e9; }
+.card { border: 1px solid #e6dcc9; }
+@media (max-width: 576px) {
+    .portada { padding: 40px 12px 48px; }
+    .formulario .card-body { padding: 22px !important; }
+}
